@@ -1,0 +1,271 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+	background: linear-gradient(#3399ff,#010630); /* Standard syntax */
+  background: -webkit-linear-gradient(#3399ff,#010630); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#3399ff,#010630); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#3399ff,#010630); /* For Firefox 3.6 to 15 */
+  text-align: center;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: #ff8566;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #ffc2b2;
+}
+
+.emphasis {
+	font-style: italic;
+}
+
+.strong {
+	font-weight: 400;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.coral {
+	color: #ff8566;
+}
+
+.green {
+	color: #73c203;
+}
+
+.purple {
+	color: #e338fd;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.hcenter {
+	width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.overlay {
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.vcenter-parent {
+	display: table;
+  height: 100%;
+}
+
+.vcenter {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+
+.bottom {
+	position: absolute;
+	width: 100%;
+	bottom: 60px;
+}
+
+.shrink {
+	margin-bottom: -100px;
+}
+
+.intro {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+	background: url("../images/ocean-title.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.logo {
+	position: relative;
+	top: 1%;
+}
+
+/*-------HEADINGS---------*/
+
+.brand-heading {
+	font-weight: 100;
+	font-size: 45px;
+}
+
+.mission-heading {
+	font-weight: 300;
+	margin-bottom: 40px;
+	font-size: 45px;
+}
+
+.initiatives-heading {
+	font-weight: 300;
+	font-size: 45px;
+	text-shadow: 2px 0 6px rgba(0,0,0,0.75);
+  margin-bottom: 150px;
+}
+
+.initiative-heading {
+	font-weight: 100;
+	font-size: 55px;
+	margin: 30px 0;
+}
+
+.form-heading {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.thanks-heading {
+	font-weight: bold;
+	font-size: 100px;
+}
+
+/*-----------------------*/
+
+section.mission.content {
+	padding: 100px 0;
+	position: relative;
+}
+
+section.mission.parallax {
+	height: 600px;
+	position: relative;
+	background-position: 50% 50%;
+	background: url("../images/mission.png") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.quote:before {
+	content:'\201C';
+	position: relative;
+  z-index: 9999;
+  float: left;
+  font-size: 700%;
+  font-family: 'Georgia', serif;
+  margin-top: -87px;
+  margin-bottom: -183px;
+}
+
+p.quote {
+  margin-bottom: 70px;
+}
+
+.quote:after {
+	content:'\201D';
+	position: relative;
+  z-index: 9999;
+  float: right;
+  font-size: 700%;
+  font-family: 'Georgia', serif;
+  margin-top: -56px;
+  margin-bottom: -192px;
+}
+
+.signature {
+	font-weight: 100;
+	font-size: 28px;
+}
+
+section.initiatives.parallax {
+	height: 1000px;
+	position: relative;
+	background-position: 50% 50%;
+	background: url("../images/initiatives.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+.fa {
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  text-shadow: 2px 0 6px rgba(0,0,0,0.75);
+}
+
+section.initiative {
+	padding: 65px 0;
+}
+
+.initiative p {
+	font-size: 26px;
+}
+
+section.initiative.parallax.parallax-3 {
+	height: 600px;
+	position: relative;
+	background-position: 50% 50%;
+	background: url("../images/live.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+section.initiative.parallax.parallax-4 {
+	height: 600px;
+	position: relative;
+	background-position: 50% 50%;
+	background: url("../images/interactive.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+section.initiative.parallax.parallax-5 {
+	height: 600px;
+	position: relative;
+	background-position: 50% 50%;
+	background: url("../images/explore.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+section.connect-form {
+	padding: 30px 0;
+	position: relative;
+	height: 75%;
+}
+
+section.connect-form p {
+	margin-top: 30px;
+}
+
+.form-control {
+	font-size: 24px;
+}
+
+.checkbox label {
+	font-weight: 300;
+}
+
+.checkbox input[type=checkbox] {
+	margin-top: 16px;
+}
+
+.checkboxes {
+	margin-bottom: 30px;
+}
+
+.thanks p {
+	margin: 50px 0;
+}
