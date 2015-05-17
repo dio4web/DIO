@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link href='//fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/main.css">	
 	</head>
 
 	<body>
@@ -246,12 +246,15 @@
 
 		</section>
 
-		<footer>
-			
-		</footer>
-
+		<footer></footer>
 	
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-	</body>
+		<script type="text/javascript" src="js/skrollr.min.js"></script>
+    <script type="text/javascript">
+    var s = skrollr.init({forceHeight: false});
+    </script>
+
+  </body>
+
 </html>

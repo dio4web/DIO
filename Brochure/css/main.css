@@ -1,6 +1,7 @@
 
 html, body {
 	height: 100%;
+	width: 100%;
 }
 
 body {
@@ -98,7 +99,7 @@ a:hover{
   width: 100%;
   height: 100%;
   color: #fff;
-	background: url("../images/ocean-title.jpg") no-repeat center center fixed;
+	background: url("../images/ocean-title.jpg") no-repeat center center; /*fixed*/
 	background-size: cover;
 }
 
