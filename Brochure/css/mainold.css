@@ -15,8 +15,8 @@ body {
   background: -moz-linear-gradient(#3399ff,#010630); /* For Firefox 3.6 to 15 */
   text-align: center;
   margin: 0;
-  /*background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a {
@@ -66,7 +66,7 @@ a:hover{
 
 .overlay {
 	background-color: rgba(0,0,0,0.3);
-	/*position: absolute;*/
+	position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
@@ -95,85 +95,12 @@ a:hover{
 	margin-bottom: -100px;
 }
 
-/*-----------skrollr-specific selectors-----------*/
-
-.parallax-image-wrapper {
-	position:fixed;
-	left:0;
-	width:100%;
-	overflow:hidden;
-}
-
-.parallax-image-wrapper-50 {
-	height:50%;
-	top:-50%;
-}
-
-.parallax-image-wrapper-100 {
-	height:100%;
-	top:-100%;
-}
-
-.parallax-image {
-	display:none;
-	position:absolute;
-	bottom:0;
-	left:0;
-	width:100%;
-	background-repeat:no-repeat;
-	background-position:center;
-	background-size:cover;
-}
-
-.parallax-image-50 {
-	height:200%;
-	top:-50%;
-}
-
-.parallax-image-100 {
-	height:100%;
-	top:0;
-}
-
-.parallax-image.skrollable-between {
-	display:block;
-}
-
-.no-skrollr .parallax-image-wrapper {
-	display:none !important;
-}
-
-#skrollr-body {
-	height:100%;
-	overflow:visible;
-	position:relative;
-}
-
-.gap {
-	background:transparent center no-repeat;
-	background-size:cover;
-}
-
-.skrollr .gap {
-	background:transparent !important;
-}
-
-.gap-50 {
-	height:50%;
-}
-
-.gap-100 {
-	height:100%;
-}
-
-/*------------intro slide--------------*/
-
 .intro {
-
-}
-
-.intro-bg {
-	background-image: url("../images/ocean-title.jpg");
+  width: 100%;
+  height: 100%;
+  color: #fff;
+	background: url("../images/ocean-title.jpg") no-repeat center center; /*fixed*/
+	background-size: cover;
 }
 
 .logo {
@@ -189,12 +116,6 @@ a:hover{
 }
 
 .mission-heading {
-	font-weight: 300;
-	margin-bottom: 40px;
-	font-size: 45px;
-}
-
-.appeal-heading {
 	font-weight: 300;
 	margin-bottom: 40px;
 	font-size: 45px;
@@ -225,9 +146,17 @@ a:hover{
 
 /*-----------------------*/
 
-section.content {
+section.mission.content {
 	padding: 100px 0;
 	position: relative;
+}
+
+section.mission.parallax {
+	height: 600px;
+	position: relative;
+	background-position: 50% 50%;
+	background: url("../images/mission.png") no-repeat center center fixed;
+	background-size: cover;
 }
 
 .quote:before {
