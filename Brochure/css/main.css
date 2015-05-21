@@ -9,14 +9,16 @@ body {
 	font-size: 30px;
 	font-weight: 300;
 	color: #fff;
-	background: linear-gradient(#3399ff,#010630); /* Standard syntax */
-  background: -webkit-linear-gradient(#3399ff,#010630); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#3399ff,#010630); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#3399ff,#010630); /* For Firefox 3.6 to 15 */
+	/*background: linear-gradient(#3399ff,#010630);
+  background: -webkit-linear-gradient(#3399ff,#010630); 
+  background: -o-linear-gradient(#3399ff,#010630);
+  background: -moz-linear-gradient(#3399ff,#010630);*/
+  background-color: #010630;
   text-align: center;
   margin: 0;
-  /*background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  /*background-size: 100%;*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
 }
 
 a {
@@ -66,7 +68,7 @@ a:hover{
 
 .overlay {
 	background-color: rgba(0,0,0,0.3);
-	/*position: absolute;*/
+	position: relative;
   width: 100%;
   height: 100%;
   left: 0;
@@ -261,51 +263,11 @@ p.quote {
 	font-size: 28px;
 }
 
-section.initiatives.parallax {
-	height: 1000px;
-	position: relative;
-	background-position: 50% 50%;
-	background: url("../images/initiatives.jpg") no-repeat center center fixed;
-	background-size: cover;
-}
-
 .fa {
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
   text-shadow: 2px 0 6px rgba(0,0,0,0.75);
-}
-
-section.initiative {
-	padding: 65px 0;
-}
-
-.initiative p {
-	font-size: 26px;
-}
-
-section.initiative.parallax.parallax-3 {
-	height: 600px;
-	position: relative;
-	background-position: 50% 50%;
-	background: url("../images/live.jpg") no-repeat center center fixed;
-	background-size: cover;
-}
-
-section.initiative.parallax.parallax-4 {
-	height: 600px;
-	position: relative;
-	background-position: 50% 50%;
-	background: url("../images/interactive.jpg") no-repeat center center fixed;
-	background-size: cover;
-}
-
-section.initiative.parallax.parallax-5 {
-	height: 600px;
-	position: relative;
-	background-position: 50% 50%;
-	background: url("../images/explore.jpg") no-repeat center center fixed;
-	background-size: cover;
 }
 
 section.connect-form {
