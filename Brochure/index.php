@@ -46,8 +46,8 @@
 				class="parallax-image parallax-image-100"
 				style="background-image:url(images/appeal.png)"
 				data-anchor-target="#appeal + .gap"
-				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
-				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+				data-bottom-top="transform: translate3d(0px, -100%, 0px);"
+				data-top-bottom="transform: translate3d(0px, 100%, 0px);"
 			></div>
 
 		</div>
