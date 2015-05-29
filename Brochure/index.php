@@ -6,10 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta name="author" content="Danny Lusk">
 		<meta name="description">
+		<meta name="apple-mobile-web-app-capable" content="yes" /> 
+		<meta name="apple-touch-fullscreen" content="yes" />
 		<title>Dive into the Ocean eBrochure</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link href='//fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,100italic,300italic,400italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/main.css">	
 	</head>
 
@@ -27,8 +28,8 @@
 			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
 
 			<div
-				class="parallax-image parallax-image-100"
-				style="background-image: url(images/ocean-title.jpg)"
+				class="parallax-image parallax-image-100 intro-bg"
+				
 				data-anchor-target="#intro + .gap"
 				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
 				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
@@ -43,8 +44,7 @@
 			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
 
 			<div
-				class="parallax-image parallax-image-100"
-				style="background-image:url(images/appeal.png)"
+				class="parallax-image parallax-image-100 appeal-bg"
 				data-anchor-target="#appeal + .gap"
 				data-bottom-top="transform: translate3d(0px, -100%, 0px);"
 				data-top-bottom="transform: translate3d(0px, 100%, 0px);"
@@ -59,8 +59,7 @@
 			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
 
 			<div
-				class="parallax-image parallax-image-100"
-				style="background-image:url(images/initiatives.jpg)"
+				class="parallax-image parallax-image-100 initiatives-bg"
 				data-anchor-target="#mission + .gap"
 				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
 				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
@@ -75,8 +74,7 @@
 			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
 
 			<div
-				class="parallax-image parallax-image-100"
-				style="background-image:url(images/live.jpg)"
+				class="parallax-image parallax-image-100 live-bg"
 				data-anchor-target="#live + .gap"
 				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
 				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
@@ -91,8 +89,7 @@
 			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
 
 			<div
-				class="parallax-image parallax-image-100"
-				style="background-image:url(images/interactive.jpg)"
+				class="parallax-image parallax-image-100 interactive-bg"
 				data-anchor-target="#interactive + .gap"
 				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
 				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
@@ -107,8 +104,7 @@
 			data-top-bottom="transform:translate3d(0px, 0%, 0px)">
 
 			<div
-				class="parallax-image parallax-image-100"
-				style="background-image:url(images/explore.jpg)"
+				class="parallax-image parallax-image-100 explore-bg"
 				data-anchor-target="#explore + .gap"
 				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
 				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
