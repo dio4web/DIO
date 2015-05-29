@@ -166,7 +166,7 @@
 
 				</div><!-- overlay -->
 
-			</div>
+			</div><!-- gap gap-100 appeal-bg -->
 
 			<section class="content mission-container" id="mission" data-menu-offset="-50">
 				<div class="container">
