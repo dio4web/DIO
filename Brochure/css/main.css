@@ -24,14 +24,24 @@ body {
   /*background-attachment: fixed;*/
 }
 
-a {
+a:link {
   text-decoration: none;
-  color: #ff8566;
+  color: #fff;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #fff;
 }
 
 a:hover{
   text-decoration: none;
-  color: #ffc2b2;
+  color: #fff;
+}
+
+a:active {
+	text-decoration: none;
+	color: #fff;
 }
 
 .emphasis {
@@ -44,6 +54,10 @@ a:hover{
 
 .uppercase {
 	text-transform: uppercase;
+}
+
+.shadow {
+	text-shadow: 1px 1px 4px #000;
 }
 
 .coral {
@@ -167,6 +181,55 @@ a:hover{
 	height:100%;
 }
 
+/*-------HEADINGS---------*/
+
+.brand-heading {
+	font-weight: 100;
+	font-size: 45px;
+}
+
+.mission-heading {
+	font-weight: 300;
+	margin-bottom: 40px;
+	font-size: 45px;
+}
+
+.appeal-heading {
+	font-weight: 300;
+	margin-bottom: 40px;
+	font-size: 45px;
+}
+
+.initiatives-heading {
+	font-weight: 300;
+	font-size: 45px;
+	text-shadow: 2px 0 6px rgba(0,0,0,0.75);
+  margin-bottom: 150px;
+}
+
+.icon-heading {
+	font-weight: 300;
+	font-size: 40px;
+	font-style: italic;
+	text-shadow: 0 2px 6px #000;
+}
+
+.initiative-heading {
+	font-weight: 100;
+	font-size: 55px;
+	margin: 30px 0;
+}
+
+.form-heading {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.thanks-heading {
+	font-weight: bold;
+	font-size: 100px;
+}
+
 /*------------intro slide--------------*/
 
 .header {
@@ -199,60 +262,19 @@ a:hover{
 /*----------live slide---------------*/
 
 .live-bg {
-  background-image: url("../images/live.jpg");
+  background-image: url("../images/liveblur.jpg");
 }
 
 /*------------interactive slide-------------*/
 
 .interactive-bg {
-  background-image: url("../images/interactive.jpg");
+  background-image: url("../images/interactiveblur.jpg");
 }
 
 /*------------explore slide---------------*/
 
 .explore-bg {
-  background-image: url("../images/explore.jpg");
-}
-/*-------HEADINGS---------*/
-
-.brand-heading {
-	font-weight: 300;
-	font-size: 45px;
-}
-
-.mission-heading {
-	font-weight: 300;
-	margin-bottom: 40px;
-	font-size: 45px;
-}
-
-.appeal-heading {
-	font-weight: 300;
-	margin-bottom: 40px;
-	font-size: 45px;
-}
-
-.initiatives-heading {
-	font-weight: 300;
-	font-size: 45px;
-	text-shadow: 2px 0 6px rgba(0,0,0,0.75);
-  margin-bottom: 150px;
-}
-
-.initiative-heading {
-	font-weight: 100;
-	font-size: 55px;
-	margin: 30px 0;
-}
-
-.form-heading {
-	font-weight: bold;
-	font-size: 50px;
-}
-
-.thanks-heading {
-	font-weight: bold;
-	font-size: 100px;
+  background-image: url("../images/exploreblur.jpg");
 }
 
 /*-----------------------*/
@@ -260,6 +282,48 @@ a:hover{
 section.content {
 	padding: 60px 0;
 	position: relative;
+}
+
+section.appeal-container {
+	background-color: #3399ff;
+}
+
+section.mission-container {
+	background-color: #044b9b;
+}
+
+section.initiative {
+	padding: 14px 0;
+	background: url("../images/initiative.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.overlay-or {
+	background-color: rgba(255, 133, 102, 0.2);
+	position: relative;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	/*margin: -14px 0 -14px 0;*/
+}
+
+.overlay-gr {
+	background-color: rgba(115, 194, 3, 0.1);
+	position: relative;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.overlay-pu {
+	background-color: rgba(227, 56, 253, 0.1);
+	position: relative;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
 
 .quote:before {
@@ -297,15 +361,16 @@ p.quote {
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
-  text-shadow: 2px 0 6px rgba(0,0,0,0.75);
+  text-shadow: 0 2px 6px rgba(0,0,0,0.75);
 }
 
-section.connect-form {
+section#connect-form {
 	padding: 30px 0;
 	position: relative;
+	height:80%;
 }
 
-section.connect-form p {
+section#connect-form p {
 	margin-top: 30px;
 }
 
@@ -327,4 +392,70 @@ section.connect-form p {
 
 .thanks p {
 	margin: 50px 0;
+}
+
+.signup {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1;
+	-webkit-filter: drop-shadow(0 2px 5px #000);
+  filter: drop-shadow(0 2px 5px #000);
+  opacity: 0.7;
+}
+
+.signup:hover {
+	opacity: 1;
+}
+
+.fadeInBlock {
+	opacity: 0;
+}
+
+.fadeInBlock2 {
+	opacity: 0;
+}
+
+.fadeInBlock3 {
+	opacity: 0;
+}
+
+.fadeInBlockEarly {
+	opacity: 0;
+}
+
+@media screen and (max-width: 1040px) {
+	.signup img {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 1008px) {
+	.signup img {
+		width: 140px;
+	}
+
+	.icon-heading {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.signup img {
+		width: 140px;
+	}
+
+	.icon-heading {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.signup img {
+		width: 140px;
+	}
+
+	.icon-heading {
+		font-size: 25px;
+	}
 }

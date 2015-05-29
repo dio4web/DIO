@@ -46,8 +46,8 @@
 			<div
 				class="parallax-image parallax-image-100 appeal-bg"
 				data-anchor-target="#appeal + .gap"
-				data-bottom-top="transform: translate3d(0px, -100%, 0px);"
-				data-top-bottom="transform: translate3d(0px, 100%, 0px);"
+				data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+				data-top-bottom="transform: translate3d(0px, 80%, 0px);"
 			></div>
 
 		</div>
@@ -113,9 +113,11 @@
 		</div>
 
 		<div id="skrollr-body">
-				<div class="header" id="intro"></div>
 
-				<div class="gap gap-100" style="background-image: url(images/ocean-title.jpg)">
+			<div class="header" id="intro"></div>
+
+			<div class="gap gap-100 intro-bg">
+				<div class="overlay">
 					<div class="container-fluid logo">
 						<h1><img src="images/diologo.png" alt="Dive into the Ocean" class="img-responsive center-block"></h1>
 
@@ -124,232 +126,258 @@
 					<div class="container-fluid bottom">
 						<div class="row">
 							<div class="col-sm-12 col-lg-6 col-lg-offset-3">
-								<h2 class="brand-heading"><span class="emphasis">IMAGINE A CHILD</span> growing up just one hour from the ocean without ever actually seeing it.</h2>
+								<h2 class="brand-heading"><span class="emphasis uppercase">Imagine you are a child</span> growing up just one hour from the ocean. Now imagine <span class="emphasis">never getting the chance to see it</span>.</h2>
 
 							</div><!-- col-md-6 col-md-offset-3 -->
 
 						</div><!-- row -->
 						
+						<a href="#appeal"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
+
+					</div><!-- container -->
+
+				</div><!-- overlay -->
+
+			</div><!-- gap gap-100 -->
+
+			<section class="content appeal-container" id="appeal" data-menu-offset="-50">
+				<div class="container fadeInBlock">
+					<p>There are <span class="strong">brilliant students</span> with a passion for science but who cannot envision themselves as scientists: college seems out of reach, or their gender and skin color do not fit the stereotype.</p>
+
+				</div><!-- container -->
+
+			</section>
+
+			<div class="gap gap-100 appeal-bg">
+				<div class="overlay">
+					<div class="container vcenter-parent fadeInBlockEarly">
+						<div class="vcenter">
+							<h2 class="appeal-heading">What can we do?</h2>
+
+							<p class="emphasis">Bring the Ocean to them! Engaging students in activities of <span class="strong">scientific exploration and discovery</span> shows them that the ocean sciences are within reach.</p>
+						
+						</div><!-- vcenter -->
+						
+					</div><!-- container vcenter-parent -->
+
+					<div class="container-fluid bottom">
 						<a href="#mission"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
+					</div>
 
-					</div><!-- container -->
+				</div><!-- overlay -->
 
-				</div><!-- gap gap-100 -->
+			</div>
 
-				<section class="content appeal-container" id="appeal">
-					<div class="container">
-						<p>There are <span class="strong">brilliant students</span> with a passion for science but who cannot envision themselves as scientists: college seems out of reach, or their gender and skin color do not fit the stereotype.</p>
+			<section class="content mission-container" id="mission" data-menu-offset="-50">
+				<div class="container">
+					<p class="quote">Our goal is to provide students access to the ocean sciences no matter where they live, regardless of their socio-economic status. We believe that knowledge, passion, and curiosity are the most powerful tools we can provide our next generation in order to preserve our planet's greatest resource, the Ocean.</p>
 
-					</div><!-- container -->
+					<p class="signature emphasis">- Leslie Smith, Founder, Executive Director</p>
 
-				</section>
+				</div><!-- container -->
 
-				<div class="gap gap-100" style="background-image:url(images/appeal.png);">
-					<div class="overlay">
-						<div class="container vcenter-parent">
-							<div class="vcenter">
-								<h2 class="appeal-heading">What can we do?</h2>
+			</section>
 
-								<p class="emphasis">Bring the Ocean to them! Engaging students in activities of <span class="strong">scientific exploration and discovery</span> shows them that the ocean sciences are within reach.</p>
-							
-							</div><!-- vcenter -->
-							
-						</div><!-- container vcenter-parent -->
+			<div class="gap gap-100 initiatives-bg">
+				<div class="overlay">
+					<div class="container vcenter-parent">
+						<div class="vcenter">
+							<h2 class="initiatives-heading fadeInBlock">Dive into the Ocean consists of <span class="strong">three immersive initiatives</span> that bring the ocean to your classroom.</h2>
 
-					</div><!-- overlay -->
-
-				</div>
-
-				<section class="content mission-container" id="mission">
-					<div class="container">
-						<p class="quote">Our goal is to provide students access to the ocean sciences no matter where they live, regardless of their socio-economic status. We believe that knowledge, passion, and curiosity are the most powerful tools we can provide our next generation in order to preserve our planet's greatest resource, the Ocean.</p>
-
-						<p class="signature emphasis">- Leslie Smith, Founder, Executive Director</p>
-
-					</div><!-- container -->
-
-				</section>
-
-				<div class="gap gap-100" style="background-image:url(images/initiatives.jpg);">
-					<div class="overlay">
-						<div class="container vcenter-parent">
-							<div class="vcenter">
-								<h2 class="initiatives-heading">Dive into the Ocean consists of <span class="strong">three immersive initiatives</span> that bring the ocean to your classroom.</h2>
-
-								<div class="row">
-									<div class="col-xs-4">
+							<div class="row">
+								<div class="col-xs-4 fadeInBlock">
+									<a href="#live">
 										<span class="fa-stack fa-3x">
-										  <i class="fa fa-circle-thin fa-stack-2x"></i>
-										  <i class="fa fa-flask fa-stack-1x"></i>
+									  <i class="fa fa-circle-thin fa-stack-2x"></i>
+									  <i class="fa fa-flask fa-stack-1x"></i>
 										</span>
+										<h2 class="icon-heading coral">LIVE!<h2>
+									</a>
 
-									</div><!-- col-xs-4 -->
+								</div><!-- col-xs-4 -->
 
-									<div class="col-xs-4">
+								<div class="col-xs-4 fadeInBlock2">
+									<a href="#interactive">
 										<span class="fa-stack fa-3x">
 										  <i class="fa fa-circle-thin fa-stack-2x"></i>
 										  <i class="fa fa-cube fa-stack-1x"></i>
 										</span>
-										
-									</div><!-- col-xs-4 -->
+										<h2 class="icon-heading green">INTERACTIVE!</h2>
+									</a>
+									
+								</div><!-- col-xs-4 -->
 
-									<div class="col-xs-4">
+								<div class="col-xs-4 fadeInBlock3">
+									<a href="#explore">
 										<span class="fa-stack fa-3x">
 										  <i class="fa fa-circle-thin fa-stack-2x"></i>
 										  <i class="fa fa-ship fa-stack-1x"></i>
 										</span>
-										
-									</div><!-- col-xs-4 -->
+										<h2 class="icon-heading purple">EXPLORE!</h2>
+									</a>
+									
+								</div><!-- col-xs-4 -->
 
-								</div><!-- row -->
+							</div><!-- row -->
 
-							</div><!-- vcenter -->
+						</div><!-- vcenter -->
 
-						</div><!-- container vcenter-parent -->
+					</div><!-- container vcenter-parent -->
 
-					</div><!-- overlay -->
-
-				</div>
-
-				<section class="content live-content" id="live">
-					<div class="container">
-						<span class="fa-stack fa-3x">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-flask fa-stack-1x"></i>
-						</span>
-
-					</div><!-- container -->
-					<div class="container">
-						<div class="col-xs-10 col-xs-offset-1">
-							<h2 class="initiative-heading">Dive into the Ocean <span class="uppercase emphasis coral">Live!</span></h2>
-					
-						</div><!-- col-xs-8 col-xs-offset-2 -->
-						
-					</div><!-- container -->
-
-				</section>
-
-				<div class="gap gap-100" style="background-image: url(images/live.jpg)">
-					<div class="overlay">
-						<div class="container vcenter-parent">
-							<div class="vcenter">
-								<p>
-								A lively, interactive discussion about the ocean sciences presenting the science curriculum through the adventures of Dr. Leslie and her oceanographic colleagues. This sought-after show culmintates in a hands-on, inquiry-based demonstration of real oceanographic tools to analyze water samples and compare them to near-real time ocean data.
-							</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<section class="content interactive-content" id="interactive">
-					<div class="container">
-						<span class="fa-stack fa-3x">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-cube fa-stack-1x"></i>
-						</span>
-
-					</div><!-- container -->
-
-					<div class="container">
-						<div class="col-xs-10 col-xs-offset-1">
-							<h2 class="initiative-heading">Dive into the Ocean <span class="uppercase emphasis green">Interactive!</span></h2>
-						
-						</div><!-- col-xs-10 col-xs-offset-1 -->
-
-					</div><!-- container -->
-
-				</section>
-
-				<div class="gap gap-100" style="background-image: url(images/interactive.jpg)">
-					<div class="overlay">
-						<div class="container vcenter-parent">
-							<div class="vcenter">
-								<p>In collaboration with the award-winning Scripps Institute of Oceanography Games Group, Dive into the Ocean <span class="emphasis green">Interactive!</span> utilizes state-of-the-art technologies like ocean exploration video games, interactive websites, and even a virtual reality sandbox to give students the controls as they dive into the exciting world of scientific exploration and discovery.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<section class="content" id="explore">
-					<div class="container">
-						<span class="fa-stack fa-3x">
-							<i class="fa fa-circle-thin fa-stack-2x"></i>
-							<i class="fa fa-ship fa-stack-1x"></i>
-						</span>
-
-					</div><!-- container -->
-
-					<div class="container">
-						<div class="col-xs-10 col-xs-offset-1">
-							<h2 class="initiative-heading">Dive into the Ocean <span class="uppercase emphasis purple">Explore!</span></h2>
-						
-						</div><!-- col-xs-10 col-xs-offset-1 -->
-
-					</div><!-- container -->
-
-				</section>
-
-				<div class="gap gap-100" style="background-image: url(images/explore.jpg)">
-					<div class="overlay">
-						<div class="container vcenter-parent">
-							<div class="vcenter">
-								<p>
-									A lively, interactive discussion about the ocean sciences presenting the science curriculum through the adventures of Dr. Leslie and her oceanographic colleagues. This sought-after show culmintates in a hands-on, inquiry-based demonstration of real oceanographic tools to analyze water samples and compare them to near-real time ocean data.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<section class="connect-form">
-					<h2 class="form-heading uppercase">Stay in Touch</h2>
-
-					<div class="container">
-						<form class="connect" method="post" action="connect.php">
-							<div class="form-group">
-								<input type="text" class="form-control input-lg" name="Name" placeholder="Name" required>
-							</div>
-
-							<div class="form-group">
-								<input type="email" class="form-control input-lg" name="Email" placeholder="Email" required>
-							</div>
-
-							<p class="text-left">I&apos;m interested in...</p>
-
-							<div class="row checkboxes">
-								<div class="col-xs-6 col-xs-offset-3 text-left">
-									<div class="checkbox">
-										<label>
-											<input type="checkbox" name="more-info" value="Yes">
-											More information
-										</label>
-									</div>
-
-									<div class="checkbox">
-										<label>
-											<input type="checkbox" name="newsletter" value="Yes">
-											Monthly newsletter
-										</label>
-									</div>
-
-									<div class="checkbox">
-										<label>
-											<input type="checkbox" name="booking" value="Yes">
-											Booking a show
-										</label>
-									</div>							
-								</div><!-- row -->
-							</div><!-- col-md-6 col-md-offset-3 -->
-
-							<input class="btn btn-default btn-lg uppercase" type="submit" value="Submit">
-
-						</form>
-
-					</div><!-- container -->
-
-				</section>
+				</div><!-- overlay -->
 
 			</div>
+
+			<div id="live"></div>
+
+			<div class="gap gap-100 live-bg">
+				<div class="overlay-or">
+					<div class="container vcenter-parent fadeInBlockEarly">
+						<div class="vcenter">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle-thin fa-stack-2x"></i>
+								<i class="fa fa-flask fa-stack-1x"></i>
+							</span>
+
+							<div class="col-xs-12">
+								<h2 class="initiative-heading">Dive into the Ocean <span class="uppercase emphasis strong coral shadow">Live!</span></h2>
+							
+							</div><!-- col-xs-12 -->
+
+							<p>
+							A lively, interactive discussion about the ocean sciences presenting the science curriculum through the adventures of Dr. Leslie and her oceanographic colleagues. This sought-after show culmintates in a hands-on, inquiry-based demonstration of real oceanographic tools to analyze water samples and compare them to near-real time ocean data.
+							</p>
+
+						</div><!-- vcenter -->
+
+					</div><!-- container vcenter-parent -->
+
+					<div class="container-fluid bottom">
+						<a href="#interactive"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
+					</div>
+
+				</div><!-- overlay-or -->
+
+			</div><!-- gap gap-100 live-bg -->
+
+			<div id="interactive"></div>
+
+			<div class="gap gap-100 interactive-bg">
+				<div class="overlay-gr">
+					<div class="container vcenter-parent fadeInBlockEarly">
+						<div class="vcenter">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle-thin fa-stack-2x"></i>
+								<i class="fa fa-cube fa-stack-1x"></i>
+							</span>
+
+							<div class="col-xs-12">
+								<h2 class="initiative-heading">Dive into the Ocean <span class="uppercase emphasis strong green shadow">Interactive!</span></h2>
+							
+							</div><!-- col-xs-12 -->
+
+							<p>In collaboration with the award-winning Scripps Institute of Oceanography Games Group, Dive into the Ocean <span class="emphasis green">Interactive!</span> utilizes state-of-the-art technologies like ocean exploration video games, interactive websites, and even a virtual reality sandbox to give students the controls as they dive into the exciting world of scientific exploration and discovery.</p>
+
+						</div><!-- vcenter -->
+
+					</div><!-- container vcenter-parent -->
+
+					<div class="container-fluid bottom">
+						<a href="#explore"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
+					</div>
+
+				</div><!-- overlay-gr -->
+
+			</div><!-- gap gap-100 interactive-bg -->
+
+			<div id="explore"></div>
+
+			<div class="gap gap-100 explore-bg">
+				<div class="overlay-pu">
+					<div class="container vcenter-parent fadeInBlockEarly">
+						<div class="vcenter">
+							<span class="fa-stack fa-3x">
+								<i class="fa fa-circle-thin fa-stack-2x"></i>
+								<i class="fa fa-ship fa-stack-1x"></i>
+							</span>
+
+							<div class="col-xs-12">
+								<h2 class="initiative-heading">Dive into the Ocean <span class="uppercase emphasis strong purple shadow">Explore!</span></h2>
+							
+							</div><!-- col-xs-12 -->
+
+							<p>
+								A lively, interactive discussion about the ocean sciences presenting the science curriculum through the adventures of Dr. Leslie and her oceanographic colleagues. This sought-after show culmintates in a hands-on, inquiry-based demonstration of real oceanographic tools to analyze water samples and compare them to near-real time ocean data.
+							</p>
+
+						</div><!-- vcenter -->
+
+					</div><!-- container vcenter-parent fadeInBlockEarly -->
+
+					<div class="container-fluid bottom">
+						<a href="#connect-form"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
+					</div>
+
+				</div><!-- overlay-pu -->
+
+			</div><!-- gap gap-100 explore-bg -->
+
+			<section id="connect-form">
+				<h2 class="form-heading uppercase">Stay in Touch</h2>
+
+				<div class="container">
+					<form class="connect" method="post" action="connect.php">
+						<div class="form-group">
+							<input type="text" class="form-control input-lg" name="Name" placeholder="Name" required>
+						</div>
+
+						<div class="form-group">
+							<input type="email" class="form-control input-lg" name="Email" placeholder="Email" required>
+						</div>
+
+						<p class="text-left">I&apos;m interested in...</p>
+
+						<div class="row checkboxes">
+							<div class="col-xs-6 col-xs-offset-3 text-left">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" name="more-info" value="Yes">
+										More information
+									</label>
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" name="newsletter" value="Yes">
+										Monthly newsletter
+									</label>
+								</div>
+
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" name="booking" value="Yes">
+										Booking a show
+									</label>
+								</div>							
+							</div><!-- row -->
+						</div><!-- col-md-6 col-md-offset-3 -->
+
+						<input class="btn btn-default btn-lg uppercase" type="submit" value="Submit">
+
+					</form>
+
+				</div><!-- container -->
+
+			</section>
+
+			<div class="signup">
+				<a href="#connect-form">
+					<img src="images/plainsub-sm.png" alt="Sign Up">
+				</a>
+
+			</div>
+
+		</div>
 
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
@@ -360,6 +388,18 @@
     	smoothScrolling: false
     });
     </script>
+    <script src="js/skrollr.menu.min.js"></script>
+    <script>
+    skrollr.menu.init(s, {
+    	animate: true,
+    	easing: 'swing',
+    	duration: function(currentTop, targetTop) {
+    		return Math.abs(currentTop - targetTop) * 0.8;
+    	},
+    	updateUrl: false
+    });
+    </script>
+    <script src="js/main.js"></script>
 
   </body>
 
