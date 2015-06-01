@@ -107,7 +107,7 @@ a:active {
 .bottom {
 	position: absolute;
 	width: 100%;
-	bottom: 60px;
+	bottom: 40px;
 }
 
 /*-----------skrollr-specific selectors-----------*/
@@ -329,7 +329,7 @@ section.initiative {
 .quote:before {
 	content:'\201C';
 	position: relative;
-  z-index: 9999;
+  /*z-index: 9999;*/
   float: left;
   font-size: 700%;
   font-family: 'Georgia', serif;
@@ -344,7 +344,7 @@ p.quote {
 .quote:after {
 	content:'\201D';
 	position: relative;
-  z-index: 9999;
+  /*z-index: 9999;*/
   float: right;
   font-size: 700%;
   font-family: 'Georgia', serif;
@@ -398,7 +398,7 @@ section#connect-form p {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
-	z-index: 1;
+	z-index: 2;
 	-webkit-filter: drop-shadow(0 2px 5px #000);
   filter: drop-shadow(0 2px 5px #000);
   opacity: 0.7;
@@ -451,6 +451,40 @@ section#connect-form p {
 }
 
 @media screen and (max-width: 479px) {
+
+  body {
+    font-size: 20px;
+  }
+
+  .bottom {
+    bottom: 10px;
+  }
+
+  .brand-heading {
+    font-size: 30px;
+  }
+
+  .initiative-heading {
+    font-size: 30px;
+  }
+
+  .quote:before {
+    font-size: 500%;
+  }
+
+  .quote:after {
+    font-size: 500%;
+  }
+
+  .initiatives-heading {
+    font-size: 30px;
+    margin-bottom: 75px;
+  }
+
+  .fa-stack {
+    font-size: 45px;
+  }
+
 	.signup img {
 		width: 140px;
 	}

@@ -16,6 +16,13 @@
 
 	<body>
 
+		<div class="signup">
+			<a href="#connect-form">
+				<img src="images/plainsub-sm.png" alt="Sign Up">
+			</a>
+
+		</div>
+
 		<!--
 		We position the images fixed and therefore need to place them outside of #skrollr-body.
 		We will then use data-anchor-target to display the correct image matching the current section (.gap element).
@@ -141,7 +148,10 @@
 			</div><!-- gap gap-100 -->
 
 			<section class="content appeal-container" id="appeal" data-menu-offset="-50">
-				<div class="container fadeInBlock">
+				<div 
+					class="container" 
+					data--100-bottom-bottom="opacity: 0"
+					data--200-bottom-bottom="opacity: 1">
 					<p>There are <span class="strong">brilliant students</span> with a passion for science but who cannot envision themselves as scientists: college seems out of reach, or their gender and skin color do not fit the stereotype.</p>
 
 				</div><!-- container -->
@@ -150,7 +160,9 @@
 
 			<div class="gap gap-100 appeal-bg">
 				<div class="overlay">
-					<div class="container vcenter-parent fadeInBlockEarly">
+					<div class="container vcenter-parent fadeInBlockEarlyX" 
+						data-bottom-center="opacity: 0"
+						data-bottom-bottom="opacity: 1">
 						<div class="vcenter">
 							<h2 class="appeal-heading">What can we do?</h2>
 
@@ -182,10 +194,14 @@
 				<div class="overlay">
 					<div class="container vcenter-parent">
 						<div class="vcenter">
-							<h2 class="initiatives-heading fadeInBlock">Dive into the Ocean consists of <span class="strong">three immersive initiatives</span> that bring the ocean to your classroom.</h2>
+							<h2 class="initiatives-heading fadeInBlockX"
+								data-bottom-center="opacity: 0"
+								data-bottom-bottom="opacity: 1">Dive into the Ocean consists of <span class="strong">three immersive initiatives</span> that bring the ocean to your classroom.</h2>
 
 							<div class="row">
-								<div class="col-xs-4 fadeInBlock">
+								<div class="col-xs-4 fadeInBlockX"
+									data--25-bottom-center="opacity: 0"
+									data--75-bottom-bottom="opacity: 1">
 									<a href="#live">
 										<span class="fa-stack fa-3x">
 									  <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -196,7 +212,9 @@
 
 								</div><!-- col-xs-4 -->
 
-								<div class="col-xs-4 fadeInBlock2">
+								<div class="col-xs-4 fadeInBlock2X"
+									data--75-bottom-center="opacity: 0"
+									data--150-bottom-bottom="opacity: 1">
 									<a href="#interactive">
 										<span class="fa-stack fa-3x">
 										  <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -207,7 +225,9 @@
 									
 								</div><!-- col-xs-4 -->
 
-								<div class="col-xs-4 fadeInBlock3">
+								<div class="col-xs-4 fadeInBlock3X"
+									data--150-bottom-center="opacity: 0"
+									data--225-bottom-bottom="opacity: 1">
 									<a href="#explore">
 										<span class="fa-stack fa-3x">
 										  <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -232,7 +252,9 @@
 
 			<div class="gap gap-100 live-bg">
 				<div class="overlay-or">
-					<div class="container vcenter-parent fadeInBlockEarly">
+					<div class="container vcenter-parent fadeInBlockEarlyX"
+						data-bottom-center="opacity: 0"
+						data-bottom-bottom="opacity: 1">
 						<div class="vcenter">
 							<span class="fa-stack fa-3x">
 								<i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -264,7 +286,9 @@
 
 			<div class="gap gap-100 interactive-bg">
 				<div class="overlay-gr">
-					<div class="container vcenter-parent fadeInBlockEarly">
+					<div class="container vcenter-parent fadeInBlockEarlyX"
+						data-bottom-center="opacity: 0"
+						data-bottom-bottom="opacity: 1">
 						<div class="vcenter">
 							<span class="fa-stack fa-3x">
 								<i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -294,7 +318,9 @@
 
 			<div class="gap gap-100 explore-bg">
 				<div class="overlay-pu">
-					<div class="container vcenter-parent fadeInBlockEarly">
+					<div class="container vcenter-parent fadeInBlockEarlyX"
+						data-bottom-center="opacity: 0"
+						data-bottom-bottom="opacity: 1">
 						<div class="vcenter">
 							<span class="fa-stack fa-3x">
 								<i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -370,36 +396,30 @@
 
 			</section>
 
-			<div class="signup">
-				<a href="#connect-form">
-					<img src="images/plainsub-sm.png" alt="Sign Up">
-				</a>
-
-			</div>
-
 		</div>
 
 		<script src="js/jquery-2.1.4.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/skrollr.min.js"></script>
-    <script type="text/javascript">
-    var s = skrollr.init({
-    	forceHeight: false,
-    	smoothScrolling: false
-    });
-    </script>
-    <script src="js/skrollr.menu.min.js"></script>
-    <script>
-    skrollr.menu.init(s, {
-    	animate: true,
-    	easing: 'swing',
-    	duration: function(currentTop, targetTop) {
-    		return Math.abs(currentTop - targetTop) * 0.8;
-    	},
-    	updateUrl: false
-    });
-    </script>
+		<script src="js/skrollr.menu.min.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+    	var s = skrollr.init({
+    		forceHeight: false,
+    		smoothScrolling: false
+    	});
+
+    	skrollr.menu.init(s, {
+    		animate: true,
+    		easing: 'swing',
+    		duration: function(currentTop, targetTop) {
+    			return Math.abs(currentTop - targetTop) * 0.8;
+    		},
+    		updateUrl: false
+    	});
+    };
+    </script>
 
   </body>
 
