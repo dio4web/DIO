@@ -133,13 +133,15 @@
 					<div class="container-fluid bottom">
 						<div class="row">
 							<div class="col-sm-12 col-lg-6 col-lg-offset-3">
-								<h2 class="brand-heading"><span class="emphasis uppercase">Imagine you are a child</span> growing up just one hour from the ocean. Now imagine <span class="emphasis">never getting the chance to see it</span>.</h2>
+								<h2 class="brand-heading"><span class="emphasis"><span class="emphasis">Imagine</span> growing up near the ocean and never seeing it.</h2>
 
-							</div><!-- col-md-6 col-md-offset-3 -->
+							</div><!-- col-sm-12 col-lg-6 col-lg-offset-3 -->
+
+							
 
 						</div><!-- row -->
 						
-						<a href="#appeal"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
+						<img src="images/arrowdown.png" alt="Scroll down for more">
 
 					</div><!-- container -->
 
@@ -152,7 +154,10 @@
 					class="container" 
 					data--100-bottom-bottom="opacity: 0"
 					data--200-bottom-bottom="opacity: 1">
-					<p>There are <span class="strong">brilliant students</span> with a passion for science but who cannot envision themselves as scientists: college seems out of reach, or their gender and skin color do not fit the stereotype.</p>
+					<div class="col-sm-12 col-lg-6 col-lg-offset-3">
+						<h2 class="brand-heading"><span class="emphasis"><span class="emphasis">Imagine</span> being told your dreams are out of reach.</h2>
+
+					</div><!-- col-sm-12 col-lg-6 col-lg-offset-3 -->
 
 				</div><!-- container -->
 
@@ -164,17 +169,13 @@
 						data-bottom-center="opacity: 0"
 						data-bottom-bottom="opacity: 1">
 						<div class="vcenter">
-							<h2 class="appeal-heading">What can we do?</h2>
+							<h2 class="appeal-heading emphasis">Now imagine being given the chance to Dive In.</h2>
 
-							<p class="emphasis">Bring the Ocean to them! Engaging students in activities of <span class="strong">scientific exploration and discovery</span> shows them that the ocean sciences are within reach.</p>
+							<p>At Dive into the Ocean we bring the ocean to the classroom by connecting students with real ocean scientists. Engaging students in activities of <span class="strong">scientific exploration and discovery</span> shows them that the ocean sciences are within reach.</p>
 						
 						</div><!-- vcenter -->
 						
 					</div><!-- container vcenter-parent -->
-
-					<div class="container-fluid bottom">
-						<a href="#mission"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
-					</div>
 
 				</div><!-- overlay -->
 
@@ -182,7 +183,15 @@
 
 			<section class="content mission-container" id="mission" data-menu-offset="-50">
 				<div class="container">
-					<p class="quote">Our goal is to provide students access to the ocean sciences no matter where they live, regardless of their socio-economic status. We believe that knowledge, passion, and curiosity are the most powerful tools we can provide our next generation in order to preserve our planet's greatest resource, the Ocean.</p>
+					<p class="appeal-basis" 
+					data-bottom-center="opacity: 0"
+					data--200-bottom-bottom="opacity: 1">
+					There are <span class="strong">brilliant students</span> with a passion for science but who cannot envision themselves as scientists: college seems out of reach, or their gender and skin color do not fit the stereotype.</p>
+
+					<p class="quote"
+					data-bottom-center="opacity: 0"
+					data--200-bottom-bottom="opacity: 1">
+					Our goal is to provide students access to the ocean sciences no matter where they live, regardless of their socio-economic status. We believe that knowledge, passion, and curiosity are the most powerful tools we can provide our next generation in order to preserve our planet's greatest resource, the Ocean.</p>
 
 					<p class="signature emphasis">- Leslie Smith, Founder, Executive Director</p>
 
@@ -195,8 +204,8 @@
 					<div class="container vcenter-parent">
 						<div class="vcenter">
 							<h2 class="initiatives-heading fadeInBlockX"
-								data-bottom-center="opacity: 0"
-								data-bottom-bottom="opacity: 1">Dive into the Ocean consists of <span class="strong">three immersive initiatives</span> that bring the ocean to your classroom.</h2>
+								data--100-bottom-center="opacity: 0"
+								data--200-bottom-bottom="opacity: 1">Dive into the Ocean consists of <span class="strong">three immersive initiatives</span> that bring the ocean to your classroom.</h2>
 
 							<div class="row">
 								<div class="col-xs-4 fadeInBlockX"
@@ -213,7 +222,7 @@
 								</div><!-- col-xs-4 -->
 
 								<div class="col-xs-4 fadeInBlock2X"
-									data--75-bottom-center="opacity: 0"
+									data--100-bottom-center="opacity: 0"
 									data--150-bottom-bottom="opacity: 1">
 									<a href="#interactive">
 										<span class="fa-stack fa-3x">
@@ -226,8 +235,8 @@
 								</div><!-- col-xs-4 -->
 
 								<div class="col-xs-4 fadeInBlock3X"
-									data--150-bottom-center="opacity: 0"
-									data--225-bottom-bottom="opacity: 1">
+									data--175-bottom-center="opacity: 0"
+									data--250-bottom-bottom="opacity: 1">
 									<a href="#explore">
 										<span class="fa-stack fa-3x">
 										  <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -266,17 +275,11 @@
 							
 							</div><!-- col-xs-12 -->
 
-							<p>
-							A lively, interactive discussion about the ocean sciences presenting the science curriculum through the adventures of Dr. Leslie and her oceanographic colleagues. This sought-after show culmintates in a hands-on, inquiry-based demonstration of real oceanographic tools to analyze water samples and compare them to near-real time ocean data.
-							</p>
+							<p>Dr. Leslie and the Dive into the Ocean team will bring the ocean to your classroom with their fun, entertaining, hands-on, inquiry-based programs using real oceanographic data. Students will <span class="emphasis">dive</span> from the ocean surface to the deepest ocean trenches. Discover creatures so small they can only be seen with a microscope and creatures so big they cover a basketball court!</p>
 
 						</div><!-- vcenter -->
 
 					</div><!-- container vcenter-parent -->
-
-					<div class="container-fluid bottom">
-						<a href="#interactive"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
-					</div>
 
 				</div><!-- overlay-or -->
 
@@ -300,15 +303,11 @@
 							
 							</div><!-- col-xs-12 -->
 
-							<p>In collaboration with the award-winning Scripps Institute of Oceanography Games Group, Dive into the Ocean <span class="emphasis green">Interactive!</span> utilizes state-of-the-art technologies like ocean exploration video games, interactive websites, and even a virtual reality sandbox to give students the controls as they dive into the exciting world of scientific exploration and discovery.</p>
+							<p>Free, online, interactive video games and web-based activities allow students be oceanographers.  Dive into the Ocean has teamed up with Scripps Institution of Oceanography Games Group to bring students state-of-the-art virtual oceanographic experiences.  Students will &quot;dive&quot; from the sea surface to the deep ocean, exploring the marine environment and technology along the way.</p>
 
 						</div><!-- vcenter -->
 
 					</div><!-- container vcenter-parent -->
-
-					<div class="container-fluid bottom">
-						<a href="#explore"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
-					</div>
 
 				</div><!-- overlay-gr -->
 
@@ -332,17 +331,11 @@
 							
 							</div><!-- col-xs-12 -->
 
-							<p>
-								A lively, interactive discussion about the ocean sciences presenting the science curriculum through the adventures of Dr. Leslie and her oceanographic colleagues. This sought-after show culmintates in a hands-on, inquiry-based demonstration of real oceanographic tools to analyze water samples and compare them to near-real time ocean data.
-							</p>
+							<p>Dive into the ocean with self-guided exploration activities produced by DIO and housed at museums and nature centers. Move mountains with the Augmented Reality Sandbox, or use real ocean tools to solve the mysterious origins of a water sample.  DIO has both standalone exhibits as well as hands-on, interactive displays with Dr. Leslie.</p>
 
 						</div><!-- vcenter -->
 
 					</div><!-- container vcenter-parent fadeInBlockEarly -->
-
-					<div class="container-fluid bottom">
-						<a href="#connect-form"><img src="images/arrowdown.png" alt="Scroll down for more"></a>
-					</div>
 
 				</div><!-- overlay-pu -->
 
