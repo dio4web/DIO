@@ -186,7 +186,7 @@
 					<p class="appeal-basis" 
 					data-bottom-center="opacity: 0"
 					data--200-bottom-bottom="opacity: 1">
-					There are <span class="strong">brilliant students</span> with a passion for science but who cannot envision themselves as scientists: college seems out of reach, or their gender and skin color do not fit the stereotype.</p>
+					There are <span class="strong">brilliant students</span> with a passion for science but who cannot envision themselves as scientists.</p>
 
 					<p class="quote"
 					data-bottom-center="opacity: 0"
@@ -275,7 +275,7 @@
 							
 							</div><!-- col-xs-12 -->
 
-							<p>Dr. Leslie and the Dive into the Ocean team will bring the ocean to your classroom with their fun, entertaining, hands-on, inquiry-based programs using real oceanographic data. Students will <span class="emphasis">dive</span> from the ocean surface to the deepest ocean trenches. Discover creatures so small they can only be seen with a microscope and creatures so big they cover a basketball court!</p>
+							<p>Dr. Leslie and the Dive into the Ocean team will bring the ocean to your classroom with their fun, entertaining, hands-on, inquiry-based programs using real oceanographic data. Students will <span class="emphasis">dive</span> from the ocean surface to the deepest trenches. Discover creatures so small they can only be seen with a microscope and creatures so big they cover a basketball court!</p>
 
 						</div><!-- vcenter -->
 
@@ -303,7 +303,7 @@
 							
 							</div><!-- col-xs-12 -->
 
-							<p>Free, online, interactive video games and web-based activities allow students be oceanographers.  Dive into the Ocean has teamed up with Scripps Institution of Oceanography Games Group to bring students state-of-the-art virtual oceanographic experiences.  Students will &quot;dive&quot; from the sea surface to the deep ocean, exploring the marine environment and technology along the way.</p>
+							<p>Free, online, interactive video games and web-based activities allow students be oceanographers.  Dive into the Ocean has teamed up with Scripps Institution of Oceanography Games Group to bring students state-of-the-art virtual oceanographic experiences.  Students will &quot;dive&quot; from the sea surface to the deep ocean, exploring the marine environment and ocean technology along the way.</p>
 
 						</div><!-- vcenter -->
 
@@ -331,7 +331,7 @@
 							
 							</div><!-- col-xs-12 -->
 
-							<p>Dive into the ocean with self-guided exploration activities produced by DIO and housed at museums and nature centers. Move mountains with the Augmented Reality Sandbox, or use real ocean tools to solve the mysterious origins of a water sample.  DIO has both standalone exhibits as well as hands-on, interactive displays with Dr. Leslie.</p>
+							<p>Set sail with self-guided exploration activities produced by Dive into the Ocean and housed at museums and nature centers. Move mountains with the Augmented Reality Sandbox, or use real ocean tools to solve the mysterious origins of a water sample.</p>
 
 						</div><!-- vcenter -->
 
