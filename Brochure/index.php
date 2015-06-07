@@ -377,8 +377,16 @@
 										<input type="checkbox" name="booking" value="Yes">
 										Booking a show
 									</label>
-								</div>							
+								</div>
+								
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" name="brochureless" value="Yes">
+										Going Brochureless
+									</label>
+								</div>
 							</div><!-- row -->
+
 						</div><!-- col-md-6 col-md-offset-3 -->
 
 						<input class="btn btn-default btn-lg uppercase" type="submit" value="Submit">

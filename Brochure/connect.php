@@ -17,6 +17,7 @@
   $body .= "\n      More information: [" . $_POST['more-info'] . "]";
   $body .= "\n      Monthly newsletter: [" . $_POST['newsletter'] . "]";
   $body .= "\n      Booking a show: [" . $_POST['booking'] . "]";
+  $body .= "\n      Going Brochureless: [" . $_POST['brochureless'] . "]";
 
   $headers = array(
       'From' => $from,
